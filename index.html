@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    
+    <p id="last_key_pressed">
+    </p>
+    
+
+    <div class="piano" id="piano">
+
+        <div class="key white"></div>
+        <div class="key black"></div>
+        <div class="key white"></div>
+        <div class="key black"></div>
+
+        <div class="key white"></div>
+        <div class="key white"></div>
+        <div class="key black"></div>
+        <div class="key white"></div>
+        <div class="key black"></div>
+        <div class="key white"></div>
+        <div class="key black"></div>
+        <div class="key white"></div>
+
+
+        <div class="key white"></div>
+        <div class="key black"></div>
+        <div class="key white"></div>
+        <div class="key black"></div>
+
+        <div class="key white"></div>
+        <div class="key white"></div>
+        <div class="key black"></div>
+        <div class="key white"></div>
+        <div class="key black"></div>
+        <div class="key white"></div>
+        <div class="key black"></div>
+        <div class="key white"></div>
+    </div>
+
+    <div class="slider-container">
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-volume-down show"></i>
+        <i class="fas fa-volume-up"></i>
+    
+        <span class="bar"> <span class="fill"></span> </span>
+
+        <input
+            class="slider"
+            id="slider"
+            type="range"
+            min="0"
+            max="100"
+            id="volume"
+            value="50"
+        />
+    </div>
+    
+
+
+    <audio src="./key-sounds/C3.wav"></audio>
+    <audio src="./key-sounds/Cb3.wav"></audio>        
+    <audio src="./key-sounds/D3.wav"></audio>
+    <audio src="./key-sounds/Db3.wav"></audio>
+    <audio src="./key-sounds/E3.wav"></audio>
+    <audio src="./key-sounds/F3.wav"></audio>
+    <audio src="./key-sounds/Fb3.wav"></audio>
+    <audio src="./key-sounds/G3.wav"></audio>
+    <audio src="./key-sounds/Gb3.wav"></audio>
+    <audio src="./key-sounds/A3.wav"></audio>
+    <audio src="./key-sounds/Ab3.wav"></audio>
+    <audio src="./key-sounds/B3.wav"></audio>
+    <audio src="./key-sounds/C4.wav"></audio>
+    <audio src="./key-sounds/Cb4.wav"></audio>
+    <audio src="./key-sounds/D4.wav"></audio>
+    <audio src="./key-sounds/Db4.wav"></audio>
+    <audio src="./key-sounds/E4.wav"></audio>
+    <audio src="./key-sounds/F4.wav"></audio>
+    <audio src="./key-sounds/Fb4.wav"></audio>
+    <audio src="./key-sounds/G4.wav"></audio>
+    <audio src="./key-sounds/Gb4.wav"></audio>
+    <audio src="./key-sounds/A4.wav"></audio>
+    <audio src="./key-sounds/Ab4.wav"></audio>
+    <audio src="./key-sounds/B4.wav"></audio>
+
+
+
+
+</body>
+</html>
